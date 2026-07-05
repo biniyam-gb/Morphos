@@ -1,0 +1,8 @@
+{
+  "name": "morphogen",
+  "type": "module",
+  "version": "2.0.0",
+  "description": "Interactive mathematical visualization studio",
+  "scripts": { "start": "python3 -m http.server 5500", "serve": "npx serve ." },
+  "license": "MIT"
+}

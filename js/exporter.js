@@ -2,13 +2,13 @@
 export class Exporter {
   constructor(renderer) { this.renderer = renderer; }
 
-  exportPNG(filename = 'morphogen.png') {
+  exportPNG(filename = 'Morphos.png') {
     const a = document.createElement('a');
     a.href = this.renderer.toDataURL('image/png');
     a.download = filename; a.click();
   }
 
-  exportSVG(filename = 'morphogen.svg', instance = null) {
+  exportSVG(filename = 'Morphos.svg', instance = null) {
     const { canvas } = this.renderer;
     const W = canvas.width, H = canvas.height;
     let inner = '';

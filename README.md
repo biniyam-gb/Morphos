@@ -15,7 +15,7 @@ Complex functions, Phase portraits, Fourier, Chaos, Fractals, Elliptic curves, H
 Create a server
 
 ```bash
-cd morphogen
+cd Morphos
 python3 -m http.server 5500
 # then open localhost:5500 in browser
 ```

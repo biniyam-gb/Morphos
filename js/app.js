@@ -46,9 +46,9 @@ class App {
     document.getElementById('btn-reset').addEventListener('click', () => this.reset());
     document.getElementById('btn-step').addEventListener('click',  () => this.step());
     document.getElementById('btn-png').addEventListener('click',   () =>
-      this.exporter.exportPNG(`morphogen-${this.sysDef?.id||'export'}.png`));
+      this.exporter.exportPNG(`Morphos-${this.sysDef?.id||'export'}.png`));
     document.getElementById('btn-svg').addEventListener('click',   () =>
-      this.exporter.exportSVG(`morphogen-${this.sysDef?.id||'export'}.svg`, this.instance));
+      this.exporter.exportSVG(`Morphos-${this.sysDef?.id||'export'}.svg`, this.instance));
     document.getElementById('size-select').addEventListener('change', e => {
       const s = parseInt(e.target.value);
       this.renderer.resize(s, s);
